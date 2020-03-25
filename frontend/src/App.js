@@ -2,14 +2,14 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from "./pages/logon";
+import Routes from "./routes";
 
 // JSX - HTML integrado dentro do JS
 
 function App() {
 
     return (
-        <Logon/>
+        <Routes/>
     );
 }
 
